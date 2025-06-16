@@ -24,7 +24,7 @@ A powerful tool for detecting AI-generated content in text and code. This tool u
 
 ## 🚀 Live Demo
 
-Try the tool online: [AI Content Detection Tool](https://kibrom1.github.io/ai-detector)
+Try the tool online: [AI Content Detection Tool](https://dev.github.io/ai-detector)
 
 ## 📋 Usage
 
@@ -148,5 +148,5 @@ For support, please:
 ## 🔗 Links
 
 - [GitHub Repository](https://github.com/Kibrom1/ai-detector)
-- [Live Demo](https://kibrom1.github.io/ai-detector)
+- [Live Demo](https://dev.github.io/ai-detector)
 - [Issue Tracker](https://github.com/Kibrom1/ai-detector/issues)
