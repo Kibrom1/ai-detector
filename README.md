@@ -1,6 +1,6 @@
-# AI Content Detection Tool
+# AI Content Analyzer Pro
 
-A powerful tool for detecting AI-generated content in text and code. This tool uses multiple analysis methods to identify patterns commonly found in AI-generated content.
+A sophisticated tool for detecting and analyzing AI-generated content in text and code. This professional-grade analyzer uses advanced pattern recognition and multiple analysis methods to identify AI-generated content with high accuracy.
 
 ## 🌟 Features
 
@@ -24,7 +24,7 @@ A powerful tool for detecting AI-generated content in text and code. This tool u
 
 ## 🚀 Live Demo
 
-Try the tool online: [AI Content Detection Tool](https://kibrom1.github.io/ai-detector)
+Try the tool online: [AI Content Analyzer Pro](https://kibrom1.github.io/ai_hub/Detectify)
 
 ## 📋 Usage
 
@@ -147,6 +147,6 @@ For support, please:
 
 ## 🔗 Links
 
-- [GitHub Repository](https://github.com/Kibrom1/ai-detector)
-- [Live Demo](https://kibrom1.github.io/ai-detector)
-- [Issue Tracker](https://github.com/Kibrom1/ai-detector/issues)
+- [GitHub Repository](https://github.com/kibrom1/ai_hub/tree/main/Detectify)
+- [Live Demo](https://kibrom1.github.io/ai_hub/Detectify)
+- [Issue Tracker](https://github.com/kibrom1/ai_hub/issues)
