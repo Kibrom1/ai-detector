@@ -18,25 +18,7 @@ concurrency:
   cancel-in-progress: true
 
 jobs:
-  build:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v3
-
-      - name: Setup Node
-        uses: actions/setup-node@v3
-        with:
-          node-version: '18'
-          cache: 'npm'
-
-      - name: Build
-        run: |
-          echo "Building site..."
-          # Add any build steps here if needed
-
   deploy:
-    needs: build
     runs-on: ubuntu-latest
     environment:
       name: github-pages
