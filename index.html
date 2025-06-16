@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Content Detection Tool</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <h1>AI Content Detection Tool</h1>
+            <p>Analyze text and code for AI-generated content patterns</p>
+        </header>
+
+        <div class="tab-container">
+            <div class="tab-buttons">
+                <button class="tab-btn active" data-tab="text">Text Analysis</button>
+                <button class="tab-btn" data-tab="code">Code Analysis</button>
+                <button class="tab-btn" data-tab="file">File Upload</button>
+            </div>
+
+            <div class="tab-content" id="text-tab">
+                <div class="input-area">
+                    <textarea id="textInput" placeholder="Enter or paste your text here..."></textarea>
+                </div>
+            </div>
+
+            <div class="tab-content hidden" id="code-tab">
+                <div class="input-area">
+                    <textarea id="codeInput" placeholder="Enter or paste your code here..."></textarea>
+                </div>
+            </div>
+
+            <div class="tab-content hidden" id="file-tab">
+                <div class="file-upload">
+                    <input type="file" id="fileInput" accept=".txt,.js,.py,.java,.cpp,.cs,.php,.html,.css">
+                    <p id="fileName">Drag and drop a file here or click to browse</p>
+                </div>
+            </div>
+        </div>
+
+        <div id="loadingSection" class="loading-section hidden">
+            <div class="loading-spinner"></div>
+            <p>Analyzing content...</p>
+        </div>
+
+        <div id="resultsSection" class="results-section hidden">
+            <div id="resultsContainer"></div>
+            
+            <div class="download-section">
+                <button onclick="downloadReport('json')" class="download-btn">Download JSON Report</button>
+                <button onclick="downloadReport('text')" class="download-btn">Download Text Report</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="ai-detector.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
