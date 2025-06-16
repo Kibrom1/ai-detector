@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/ai-hub/detectly/static/css/main.fa39be10.css",
+    "main.js": "/ai-hub/detectly/static/js/main.c29e9fb2.js",
+    "index.html": "/ai-hub/detectly/index.html",
+    "main.fa39be10.css.map": "/ai-hub/detectly/static/css/main.fa39be10.css.map",
+    "main.c29e9fb2.js.map": "/ai-hub/detectly/static/js/main.c29e9fb2.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fa39be10.css",
+    "static/js/main.c29e9fb2.js"
+  ]
+}
