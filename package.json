@@ -2,6 +2,7 @@
   "name": "detectly",
   "version": "1.0.0",
   "private": true,
+  "homepage": "/ai-hub/detectly",
   "description": "Advanced AI content detection and analysis tool",
   "main": "src/index.js",
   "scripts": {
